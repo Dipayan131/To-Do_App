@@ -1,10 +1,13 @@
 import './App.css'
+import Container from './components/Container'
+import Navbar from './components/Navbar'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-xl font-bold text-red-900'>New App</h1>
+      <Navbar />
+      <Container />
     </>
   )
 }
